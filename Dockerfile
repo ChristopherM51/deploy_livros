@@ -1,5 +1,5 @@
 # Estagio de compilação
-FROM ubuntu-lastest AS build
+FROM ubuntu:latest AS build
 
 # Instale o OpenJDK 17
 RUN apt-get update
