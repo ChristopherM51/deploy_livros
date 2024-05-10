@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "RenderApplication",
+            "request": "launch",
+            "mainClass": "br.com.christopherm51.lojalivro.RenderApplication",
+            "projectName": "lojalivro"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LojalivroApplication<lojalivro>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.christopherm51.lojalivro.LojalivroApplication",
+            "projectName": "lojalivro",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
