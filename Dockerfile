@@ -22,4 +22,4 @@ EXPOSE 8080
 COPY --from=build /target/lojalivro-0.0.1-SNAPSHOT.jar app.jar
 
 # Defina o comando de inicialização da aplicação
-ENTRYPOINT ["java","jar","app"]
+ENTRYPOINT ["java","jar","app.jar"]
